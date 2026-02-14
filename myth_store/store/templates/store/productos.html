@@ -1,0 +1,22 @@
+{% extends 'store/base.html' %}
+
+{% block content %}
+<h1>Productos</h1>
+<p class="muted">Explora boosters, decks y accesorios TCG.</p>
+
+<div class="productos-grid">
+    {% for producto in productos %}
+        <div class="card">
+            <h3>{{ producto.nombre }}</h3>
+            <p class="price">$ {{ producto.precio }}</p>
+
+            <div class="card-actions">
+                <a class="btn" href="{% url 'producto_detalle' producto.id %}">
+                    Ver detalle
+                </a>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+{% endblock %}

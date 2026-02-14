@@ -1,0 +1,7 @@
+{% extends 'store/base.html' %}
+
+{% block content %}
+<h1>Producto no encontrado</h1>
+<p class="muted">El producto que buscas no existe o fue eliminado.</p>
+<a class="btn" href="{% url 'productos' %}">Volver a productos</a>
+{% endblock %}
