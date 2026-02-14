@@ -41,7 +41,7 @@ myth_store/
 
 1️⃣ Clonar el repositorio:
 
-git clone https://github.com/TU-USUARIO/myth-store-django.git
+git clone https://github.com/OsvaldoGonzalezG/Proyecto-Myth-Store)
 cd myth-store-django
 
 
