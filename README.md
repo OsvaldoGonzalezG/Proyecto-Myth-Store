@@ -8,9 +8,9 @@ Este proyecto está inspirado en una página TCG que administré hace algunos a�
 ---
 
 ## 🚀 Tecnologías utilizadas
-- Python 3
-- Django
-- HTML5
+- Python 3  
+- Django  
+- HTML5  
 - CSS3
 
 ---
@@ -30,9 +30,9 @@ Este proyecto está inspirado en una página TCG que administré hace algunos a�
 myth_store/
 ├── config/ # Configuración del proyecto
 ├── store/ # App principal
-│ ├── templates/ # HTML
-│ ├── static/ # CSS
-│ ├── views.py # Vistas
+│ ├── templates/ # Archivos HTML
+│ ├── static/ # Archivos CSS
+│ ├── views.py # Lógica de vistas
 │ └── urls.py # Rutas
 └── manage.py
 
@@ -59,12 +59,27 @@ source venv/bin/activate
 Instalar dependencias:
 
 pip install django
-Ejecutar:
+Ejecutar el servidor:
 
 python manage.py runserver
 Abrir en el navegador:
 
 http://127.0.0.1:8000/
-👤 Desarrollador
+🧠 Conceptos aplicados
+Configuración de rutas (URLs)
+
+Vistas en Django
+
+Templates con herencia
+
+Uso de {% url %} para navegación dinámica
+
+Archivos estáticos (CSS)
+
+Manejo básico de formularios con método POST
+
+Renderizado condicional con {% if %}
+
+👤 Autor
 Osvaldo Andrés González González
 Proyecto académico – Desarrollo Web con Django
